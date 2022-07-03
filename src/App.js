@@ -16,7 +16,7 @@ function App() {
       (res) => console.log(res)
     );
     // "proxy": "https://8ugjegj28l.execute-api.us-east-1.amazonaws.com/dev/"
-    fetch("http://54.146.218.37/getData", {
+    fetch("https://ec2-54-146-218-37.compute-1.amazonaws.com/getData", {
       headers: {
         "Content-Type": `multipart/form-data: boundary=add-random-characters`,
         "Access-Control-Allow-Origin": "*",
